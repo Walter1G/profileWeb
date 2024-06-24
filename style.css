@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #6c6969 ;
+}
+nav{
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 2rem;
+   padding: 2rem 5rem;
+   position: fixed;
+   z-index: 999;
+}
+
+nav a{
+    text-decoration: none;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 2rem;
+}
+
+nav p{
+    font-family:"Playwrite AU VIC", cursive;  
+    font-size: 2rem;  
+}
+
+header{
+    height: 90vh;     
+    align-content: center;
+    /* border: 2px solid red; */
+    padding: 2rem;
+    
+}
+header h1{
+    margin: 4vh;
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+
+.intro{
+    display: flex;  
+    padding: 10vh;
+   align-items: center;
+   align-content: center;
+   justify-content: space-between;
+  
+    align-items: center;
+    margin: 0  auto;
+    gap: 1rem;
+ 
+    
+    position: relative;
+    /* border:1px solid red; */
+
+
+}
+.intro p{
+    font-size: 3rem;
+    text-align: justify;
+    width: 70%;
+}
+.name{
+    color: #003B6D;
+    
+}
+.intro .image{
+    position: absolute;
+    top: 1px;
+    /* background-color: red; */
+    bottom: 1rem;
+    right: 4rem;
+    height: 100%;
+    padding-bottom: 1%;
+
+
+}
+
+.intro .image img{
+    height: 100%;
+}
+
+#about{
+    height: 90vh;
+    text-align: center;
+    padding: 4rem;   
+}
+
+#about h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    
+}
+
+#about p{
+    font-size: 4rem;
+    margin-top:4rem;
+    line-height: 7rem;
+}
+
+
+#skills{
+    /* height: 90vh; */
+    text-align: center;
+    padding: 3rem;
+    border: 1px solid red
+}
+#skills h2{
+    font-size: 3rem;
+}
+
+#skills h3{
+    font-size: 2.5rem;
+    color: balck;
+}
+
+li .skill{
+    font-size: 2rem;
+    margin: 10px;    
+}
+.skill-description{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.skill-card{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skill-icon{
+    text-align: center;
+ font-size: 4rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.skill-icon img{
+    width: 50px;
+    margin:0 auto;
+}
+.skill-card ul{
+    height: 50vh;
+    margin: 2rem;
+    border: 1px solid red;
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.skill-card ul li{
+    list-style: none;
+    width: 50%;
+    border: 1px solid grey;
+    padding: 2rem;
+}
+
+li figure{
+    height: 5rem;
+    width: 9rem;
+    display: flex;
+    margin:0 auto;
+    
+}
+
+
+

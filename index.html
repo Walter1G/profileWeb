@@ -6,25 +6,58 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Walter Ndungu</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&family=Playwrite+NO:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 
 <body>
-    <nav></nav>
-    <header>
+    <nav>
+        <P id="name"><a href="#intro">Walter</a></P>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#why">Why work</a>
+            </li>
+            <li>
+                <a href="#collaborate">Collaborate</a>
+            </li>
+            <li>
+                <a href="#connect">Connection</a>
+            </li>
+        </ul>
+        <div></div>
+    </nav>
+    <header id="intro">
         <h1><span class="name">Walter Ndungu</span> - Web Developer & Freelancer</h1>
         <div class="intro">
-            <p>Welcome to my web profile! I'm [Your Name], a passionate and dedicated web developer based in [Your
-                City/Country]. With a degree in Statistics and Computer Science from the Technical University of Mombasa
+            <p>Welcome to my web profile! I'm Walter Ndungu, a passionate and dedicated web developer based in Nairobi,
+                Kenya. With a degree in Statistics and Computer Science from the Technical University of Mombasa
                 and a comprehensive software engineering training from Moringa School, I have honed my skills in
                 creating efficient and elegant web solutions.</p>
-            <figure>
-                <img />
-                <figcaption></figcaption>
-            </figure>
+            <div class="image">
+
+                <img src="bw-profile.png" alt="profile-pic">
+
+                </figure>
+            </div>
         </div>
     </header>
     <!-- About me-->
-    <section id="about-me">
+    <section id="about">
         <h2>About Me</h2>
         <p>I am a recent graduate with a strong foundation in web development technologies. My journey into the tech
             world began during my university days and has been fueled by a continuous desire to learn and innovate. As a
@@ -35,62 +68,70 @@
     <!-- my skills-->
     <section id="skills">
         <h2>My Skills</h2>
-        <h3>Frontend Development</h3>
-        <ul>
-            <li>
-                <span class="skill">HTML5 & CSS:</span>
-                <span class="skill-icon">
-                    <figure>
+        <div class="skill-card">
+            <h3>Frontend Development</h3>
+            <ul>
+                <li>
+                    <p class="skill">HTML5 & CSS</p>
+                    <P class="skill-description">
+                        Crafting clean, responsive layouts that offer a great user experience.
+                    </P>
+
+                    <figure class="skill-icon">
                         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/html5.svg" alt="html icon" />
                         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/css3.svg" alt="css icon" />
                     </figure>
-                </span>
-                <P class="skill-description">
-                    Crafting clean, responsive layouts that offer a great user experience.
-                </P>
-            </li>
 
-            <li>
-                <span class="skill">JavaScript:</span>
-                <span class="skill-icon">
-                    <figure>
-                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/javascript.svg"
-                            alt="javascript icon" />
-                    </figure>
-                </span>
-                <P class="skill-description">
-                    Bringing interactivity and dynamic features to web pages.
-                </P>
-            </li>
 
-            <li>
-                <span class="skill">React</span>
-                <span class="skill-icon">
-                    <figure>
-                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/react.svg" alt="react js icon" />
-                    </figure>
-                </span>
-                <P class="skill-description">
-                    Building modern, scalable user interfaces with a component-based architecture.
-                </P>
-            </li>
-        </ul>
+                </li>
 
-        <h3>Backend Development</h3>
-        <ul>
-            <li>
-                <span class="skill">Python & Flask:</span>
-                <span class="skill-icon">
-                    <figure>
-                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/flask.svg" alt="html & css icon" />
-                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg" alt="html & css icon" />
-                    </figure>
-                </span>
-                <P class="skill-description">
-                    Developing robust and efficient backend solutions, including RESTful APIs.
-                </P>
-            </li>
-        </ul>
+                <li>
+                    <p class="skill">JavaScript:</p>
+                    <P class="skill-description">
+                        Bringing interactivity and dynamic features to web pages.
+                    </P>
+                   
+                        <figure class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/javascript.svg"
+                                alt="javascript icon" />
+                        </figure>
+                    
+                  
+                </li>
+
+                <li>
+                    <sppan class="skill">React</sppan>
+                   
+                    <P class="skill-description">
+                        Building modern, scalable user interfaces with a component-based architecture.
+                    </P>
+                        <figure class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/react.svg"
+                                alt="react js icon" />
+                        </figure>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="skill-card">
+            <h3>Backend Development</h3>
+            <ul>
+                <li>
+                    <p class="skill">Python & Flask:</p>
+                    
+                    <P class="skill-description">
+                        Developing robust and efficient backend solutions, including RESTful APIs.
+                    </P>
+                        <figure class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/flask.svg"
+                                alt="html & css icon" />
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg"
+                                alt="html & css icon" />
+                        </figure>
+                   
+                </li>
+            </ul>
+        </div>
     </section>
     <!-- why work-->
     <!--Colaboration-->
