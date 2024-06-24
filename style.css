@@ -1,3 +1,11 @@
+:root{
+    --black: #000000;
+    --dark: #141414;
+    --grey:#282828;
+    --dark-purple:#230046;
+    --purple:#320064;
+
+}
 *{
     margin:0;
     padding:0;
@@ -77,6 +85,9 @@ header h1{
     color: #003B6D;
     
 }
+.name{
+    font-family:"Playwrite AU VIC", cursive;  
+}
 .intro .image{
     position: absolute;
     top: 1px;
@@ -116,7 +127,7 @@ header h1{
     /* height: 90vh; */
     text-align: center;
     padding: 3rem;
-    border: 1px solid red
+    /* border: 1px solid red */
 }
 #skills h2{
     font-size: 3rem;
@@ -156,17 +167,21 @@ li .skill{
 .skill-card ul{
     height: 50vh;
     margin: 2rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
+    
     padding: 3rem;
     align-items: center;
     justify-content: center;
+    gap:2rem;
 }
 .skill-card ul li{
     list-style: none;
     width: 50%;
     border: 1px solid grey;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     padding: 2rem;
+    min-height: 40vh;
 }
 
 li figure{
@@ -178,4 +193,51 @@ li figure{
 }
 
 
+.additional{
+    display: flex;
+    flex-direction: column;
+}
+
+#why{
+    height:50vh;
+    text-align: center;
+    /* border:1px solid red; */
+    font-size: 2rem;
+
+}
+#why ul{
+    margin: 0 auto;
+    /* border:1px solid red; */
+    max-width: 70vw;
+    margin-top: 4rem;
+}
+
+#why ul li{
+    list-style:square;
+    text-align: left;
+    line-height: 2rem;
+   
+}
+
+#collaborate{
+    height: 50vh;
+    text-align: center;
+    padding: 4rem;
+}
+#collaborate h3{
+    font-size: 3rem;
+}
+
+#collaborate p{
+    font-size: 2rem;
+}
+
+#connect{
+    height: 40vh;
+    text-align: center;
+    font-size: 3rem;
+}
+#connect a{
+    text-decoration: none;
+}
 
